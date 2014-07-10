@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"do",
+				"do"
+			],
+			[
 				"li",
 				"li	<li>"
 			],
@@ -26,10 +30,6 @@
 			[
 				"node",
 				"node_text"
-			],
-			[
-				"do",
-				"dob	Insert do |variable| … end"
 			],
 			[
 				"customer",
@@ -147,6 +147,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 950,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -442,8 +450,35 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 950,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								950,
+								950
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

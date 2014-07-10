@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
-gem 'rails', '4.1.4'
-gem 'sqlite3'
+gem 'rails', '4.0.8'
+#gem 'sqlite3'
+gem 'mysql2'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
@@ -12,7 +13,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'high_voltage'
-gem 'therubyracer', :platform=>:ruby
+#gem 'therubyracer', '~>0.12.0', :platform=>:ruby
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_20]
