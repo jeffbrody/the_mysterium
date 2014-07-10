@@ -1,0 +1,512 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"li	<li>"
+			],
+			[
+				"res",
+				"restclient"
+			],
+			[
+				"Re",
+				"RestClient"
+			],
+			[
+				"tr",
+				"transaction_id"
+			],
+			[
+				"sub",
+				"subject"
+			],
+			[
+				"node",
+				"node_text"
+			],
+			[
+				"do",
+				"dob	Insert do |variable| … end"
+			],
+			[
+				"customer",
+				"customer_id"
+			],
+			[
+				"clic",
+				"click_button"
+			],
+			[
+				"st",
+				"stripe_token"
+			],
+			[
+				"id",
+				"ids"
+			],
+			[
+				"uni",
+				"unit_price"
+			],
+			[
+				"cli",
+				"click_link"
+			],
+			[
+				"click_",
+				"click_button"
+			],
+			[
+				"date",
+				"date_available"
+			],
+			[
+				"fil",
+				"fill_in"
+			],
+			[
+				"be",
+				"before_filter"
+			],
+			[
+				"product",
+				"product_name"
+			],
+			[
+				"should",
+				"should_date"
+			],
+			[
+				"s",
+				"scenario"
+			],
+			[
+				"ssh",
+				"ssh_options"
+			],
+			[
+				"is",
+				"is_admin"
+			],
+			[
+				"si",
+				"signed"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
+				"sc",
+				"scenario"
+			],
+			[
+				"W",
+				"world"
+			],
+			[
+				"exchange",
+				"the_exchange_path"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"prod",
+				"product_name"
+			],
+			[
+				"cas",
+				"case_sensitive"
+			],
+			[
+				"la",
+				"last_name"
+			],
+			[
+				"fi",
+				"first_name"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fo",
+				"font-style"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 306.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Snippet: n",
+				"Snippet: bs3-navbar-links"
+			],
+			[
+				"Snippet: ",
+				"Snippet: bs3-navbar-fixed-top"
+			]
+		],
+		"width": 458.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/jeff/.config/sublime-text-2/Packages/RubyTest/TestConsole.hidden-tmTheme",
+		"/home/jeff/.config/sublime-text-2/Packages/User/RubyTest.sublime-settings",
+		"/home/jeff/.config/sublime-text-2/Packages/RubyTest/RubyTest.sublime-settings",
+		"/home/jeff/.config/sublime-text-2/Packages/HipsterIpsum/Hipster Ipsum.sublime-settings",
+		"/home/jeff/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/jeff/.config/sublime-text-2/Packages/User/JSON.sublime-settings",
+		"/home/jeff/projects/quantum/QGW/spec/QGW_spec.rb",
+		"/home/jeff/projects/quantum/QGW/Gemfile",
+		"/home/jeff/projects/quantum/QGW/Gemfile.lock",
+		"/media/jeff/STORE N GO/Cont Ed Classes/Beg Web Programing/loops.php",
+		"/media/jeff/STORE N GO/Cont Ed Classes/Beg Web Programing/dates.php",
+		"/media/jeff/STORE N GO/Cont Ed Classes/Beg Web Programing/operators.php",
+		"/media/jeff/STORE N GO/Cont Ed Classes/Beg Web Programing/scope.php",
+		"/media/jeff/345A-1DF0/58401 Web Programming Basics/baby.php",
+		"/media/jeff/STORE N GO/Cont Ed Classes/Beg Web Programing/forms.html",
+		"/media/jeff/STORE N GO/Cont Ed Classes/Beg Web Programing/first.php",
+		"/media/jeff/STORE N GO/Cont Ed Classes/Untitled Folder/10/example10-5.php",
+		"/media/jeff/STORE N GO/Cont Ed Classes/Untitled Folder/10/example10-1.php",
+		"/media/jeff/STORE N GO/Cont Ed Classes/Untitled Folder/7/example7-1.php",
+		"/media/jeff/STORE N GO/Cont Ed Classes/Untitled Folder/3/example3-17.php",
+		"/media/jeff/STORE N GO/Cont Ed Classes/Untitled Folder/3/example3-18.php",
+		"/media/jeff/STORE N GO/Cont Ed Classes/Untitled Folder/3/example3-2.php",
+		"/media/jeff/345A-1DF0/Beginning HTML/Examples/chapter-16/form.html",
+		"/media/jeff/345A-1DF0/Beginning HTML/Examples/chapter-16/showform.txt",
+		"/media/jeff/345A-1DF0/Beginning HTML/Examples/chapter-16/css/form.css",
+		"/media/jeff/345A-1DF0/58401 Web Programming Basics/form exercise/style.css",
+		"/media/jeff/345A-1DF0/58401 Web Programming Basics/form exercise/scripts.js",
+		"/media/jeff/345A-1DF0/58401 Web Programming Basics/form exercise/index.html",
+		"/media/jeff/STORE N GO/Cont Ed Classes/Untitled Folder/10/example10-3.php",
+		"/media/jeff/STORE N GO/Cont Ed Classes/Untitled Folder/10/example10-2.php",
+		"/media/jeff/STORE N GO/Cont Ed Classes/Untitled Folder/10/example10-4.php",
+		"/run/user/1000/gvfs/smb-share:server=jeffwork,share=bcc/Mtg Form/index.html",
+		"/media/jeff/345A-1DF0/Javascript/9780672336089_code_listings_v2/23listing02.html",
+		"/media/jeff/345A-1DF0/Javascript/9780672336089_code_listings_v2/23listing.01.html",
+		"/media/jeff/345A-1DF0/58401 Web Programming Basics/cookies.html",
+		"/media/jeff/345A-1DF0/58401 Web Programming Basics/cookies.js",
+		"/media/jeff/345A-1DF0/Javascript/clock.html",
+		"/media/jeff/345A-1DF0/58401 Web Programming Basics/form exercise/app.js",
+		"/media/jeff/345A-1DF0/HTML5-CSS3-JQuery-Slideshows/Slideshows/slideshow2/styles/slide_style.css",
+		"/media/jeff/345A-1DF0/HTML5-CSS3-JQuery-Slideshows/Slideshows/slideshow2/js/slides.js",
+		"/media/jeff/345A-1DF0/58401 Web Programming Basics/transitions.html",
+		"/media/jeff/345A-1DF0/HTML5-CSS3-JQuery-Slideshows/Slideshows/slideshow2/index.html",
+		"/home/jeff/projects/quantum/spike/qxmltest.rb",
+		"/home/jeff/projects/quantum/QGW/lib/QGW.rb",
+		"/home/jeff/projects/quantum/QGW/spec/lib/credit_debit_transactions_spec.rb",
+		"/home/jeff/projects/quantum/QGW/lib/QGW/credit_debit_transactions.rb",
+		"/home/jeff/projects/quantum/QGW/spec/lib/search_transactions_spec.rb",
+		"/home/jeff/projects/quantum/QGW/lib/QGW/show_transaction_details.rb",
+		"/home/jeff/projects/quantum/QGW/spec/show_transaction_details_spec.rb",
+		"/home/jeff/projects/quantum/QGW/spec/find_specific_transaction_spec.rb",
+		"/home/jeff/projects/quantum/QGW/Guardfile",
+		"/home/jeff/.rvm/gems/ruby-2.0.0-p247/gems/ox-2.1.1/lib/ox/node.rb",
+		"/home/jeff/.rvm/gems/ruby-2.0.0-p247/gems/ox-2.1.1/lib/ox/element.rb",
+		"/home/jeff/.rvm/gems/ruby-2.0.0-p247/gems/ox-2.1.1/lib/ox.rb",
+		"/home/jeff/projects/quantum/QGW/lib/QGW/search_transactions.rb",
+		"/home/jeff/projects/quantum/QGW/spec/search_transactions_spec.rb",
+		"/home/jeff/projects/cs_auth/Gemfile",
+		"/home/jeff/projects/handplow/Gemfile",
+		"/home/jeff/projects/quantum/QGW/QGW.gemspec",
+		"/home/jeff/projects/mongo/sodibee/Gemfile",
+		"/home/jeff/projects/quantum/spec/build_outer_request_spec.rb",
+		"/home/jeff/projects/quantum/lib/QGWModule.rb",
+		"/home/jeff/projects/cs_auth/auth_service.rb",
+		"/home/jeff/projects/quantum/qxmltest.rb",
+		"/home/jeff/projects/quantum/curl.sh",
+		"/home/jeff/projects/dyn_pages/Gemfile",
+		"/home/jeff/projects/handplow/Guardfile",
+		"/home/jeff/projects/dyn_pages/Guardfile",
+		"/home/jeff/projects/handplow/config/application.yml",
+		"/home/jeff/projects/handplow/app/models/user.rb",
+		"/home/jeff/projects/handplow/db/seeds.rb",
+		"/home/jeff/projects/handplow/spec/models/user_spec.rb",
+		"/home/jeff/projects/handplow/spec/features/users_spec.rb",
+		"/home/jeff/projects/handplow/app/models/plan.rb",
+		"/home/jeff/projects/handplow/app/controllers/static_pages_controller.rb",
+		"/home/jeff/projects/handplow/app/views/static_pages/test.html.erb",
+		"/home/jeff/projects/handplow/config/routes.rb",
+		"/home/jeff/projects/handplow/app/views/devise/registrations/new.html.erb",
+		"/home/jeff/projects/handplow/app/views/layouts/application.html.erb",
+		"/home/jeff/projects/handplow/app/views/koudoku/subscriptions/_social_proof.html.erb",
+		"/home/jeff/projects/handplow/app/assets/javascripts/registrations.js",
+		"/home/jeff/projects/handplow/.gitignore",
+		"/home/jeff/projects/handplow/app/views/devise/shared/_links.erb",
+		"/home/jeff/projects/handplow/app/views/products/index.html.erb",
+		"/home/jeff/projects/handplow/app/views/users_admin/edit.html.erb",
+		"/home/jeff/projects/handplow/spec/support/features.rb",
+		"/home/jeff/projects/handplow/spec/features/editing_product_spec.rb",
+		"/home/jeff/projects/handplow/spec/features/admin_spec.rb",
+		"/home/jeff/projects/handplow/spec/features/deleting_product_spec.rb",
+		"/home/jeff/projects/handplow/spec/features/creating_products_spec.rb",
+		"/home/jeff/projects/handplow/spec/features/viewing_product_spec.rb",
+		"/home/jeff/projects/handplow/app/views/layouts/_navigation.html.erb",
+		"/home/jeff/projects/handplow/app/assets/stylesheets/handplow.css.scss",
+		"/home/jeff/projects/handplow/app/views/users_admin/index.html.erb",
+		"/home/jeff/projects/handplow/app/controllers/users_admin_controller.rb",
+		"/home/jeff/projects/handplow/app/controllers/products_controller.rb",
+		"/home/jeff/projects/handplow/app/views/products/_product_form.html.erb",
+		"/home/jeff/projects/handplow/app/views/users_admin/show.html.erb",
+		"/home/jeff/projects/handplow/app/views/devise/registrations/edit.html.erb",
+		"/home/jeff/projects/handplow/app/assets/javascripts/jquery.readyselector.js",
+		"/home/jeff/projects/handplow/app/assets/javascripts/jquery.externalscript.js",
+		"/home/jeff/projects/handplow/spec/features/home_page_spec.rb",
+		"/home/jeff/projects/handplow/app/models/role.rb",
+		"/home/jeff/projects/handplow/config/initializers/stripe.rb",
+		"/home/jeff/projects/handplow/spec/features/next step notes",
+		"/home/jeff/projects/handplow/app/models/product.rb",
+		"/home/jeff/projects/handplow/spec/models/product_spec.rb",
+		"/home/jeff/projects/handplow/spec/factories/users.rb",
+		"/home/jeff/projects/handplow/virtual_data/access for Ann",
+		"/home/jeff/projects/handplow/app/models/ability.rb",
+		"/home/jeff/projects/handplow/spec/controllers/products_controller_spec.rb",
+		"/home/jeff/projects/handplow/app/views/products/show.html.erb",
+		"/home/jeff/projects/handplow/config/locales/devise.en.yml",
+		"/home/jeff/projects/handplow/app/controllers/users/registrations_controller.rb",
+		"/home/jeff/projects/handplow/app/controllers/users/users_controller.rb",
+		"/home/jeff/projects/handplow/config/initializers/devise.rb",
+		"/home/jeff/projects/handplow/app/views/devise/passwords/new.html.erb",
+		"/home/jeff/projects/handplow/app/views/devise/passwords/edit.html.erb",
+		"/home/jeff/projects/handplow/app/views/devise/confirmations/new.html.erb",
+		"/home/jeff/projects/handplow/app/views/devise/unlocks/new.html.erb",
+		"/home/jeff/projects/handplow/app/views/devise/sessions/new.html.erb",
+		"/home/jeff/projects/handplow/lib/templates/erb/scaffold/_form.html.erb",
+		"/home/jeff/projects/handplow/app/views/static_pages/about_us.html.erb",
+		"/home/jeff/projects/handplow/spec/factories/products.rb",
+		"/home/jeff/projects/handplow/spec/features/products_controller_spec.rb",
+		"/home/jeff/projects/handplow/app/views/products/edit.html.erb",
+		"/home/jeff/projects/handplow/app/assets/javascripts/application.js",
+		"/home/jeff/projects/handplow/app/views/products/new.html.erb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"</span>",
+			"<span>",
+			"1",
+			"0",
+			"[0]",
+			"auth",
+			";\n“",
+			";\n$xml .= ",
+			"\n$xml .= “ ",
+			" %></button>",
+			"<button type=\"button\" class=\"btn btn-default\">",
+			"()",
+			".val()",
+			"name",
+			"product",
+			"Sessions",
+			"(f.button.*)%>",
+			"Qty",
+			"location",
+			"Location",
+			"\") ",
+			"admin",
+			"<%= link_to",
+			"br /",
+			"[0-9][0-9]\\.",
+			"/[0-9][0-9]\\./",
+			"name",
+			"je",
+			"devise",
+			"b94a48",
+			"danger",
+			"alert",
+			"list",
+			"je",
+			"}",
+			"#{Date.",
+			"ay",
+			"Date",
+			"@yesterday",
+			"@today",
+			"je",
+			"Project",
+			"13",
+			"s/",
+			"get",
+			"qty",
+			"name",
+			"yesterday",
+			"today",
+			"lightness",
+			"4.0.0",
+			"Seventy.com"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"2",
+			"1",
+			"[1]",
+			"req",
+			"\"",
+			"+",
+			"",
+			", :class => \"btn btn-default\" %></p>",
+			"<p>",
+			"",
+			"username",
+			"user",
+			"Registrations",
+			"\\1, :class => \"btn btn-default\" %>",
+			"Quantity",
+			"zipcode",
+			"Zip Code",
+			"<button type=\"button\" class=\"btn btn-default\"><%= link_to",
+			"/button",
+			"",
+			"username",
+			"du",
+			"",
+			"ay}",
+			"#{Date",
+			"Date.yesterday",
+			"Date.today",
+			"du",
+			"Product",
+			"2013",
+			"s#",
+			"match '/about_us', to: ",
+			"quantity_available",
+			"product_name",
+			"9/10/13",
+			"9/11/13",
+			"3.2.13",
+			"HandandPlow.com"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true
+}
