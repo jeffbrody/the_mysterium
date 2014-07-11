@@ -29,6 +29,7 @@ end
 group :development, :test do
   gem 'factory_girl_rails'
   gem 'rspec-rails'
+  gem 'spring-commands-rspec'
   gem 'thin'
 end
 group :production do
