@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>The Mysterium - <%= yield(:title) %></title>
+  <title><%= full_title(yield(:title)) %></title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <%= render "layouts/shiv" %>
+
 </head>
 <body>
+<%= render "layouts/header" %>
 
-<%= yield %>
+<div id="main-content">
+	<div class="container">
+		<%= yield %>
+		<%= render "layouts/footer" %>
+	</div>
+</div>
 
 </body>
 </html>

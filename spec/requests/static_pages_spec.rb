@@ -6,7 +6,8 @@ feature "Static pages" do
   scenario "user visits Home page" do
       visit '/'
       expect(page).to have_content('The Mysterium Library Software')
-      expect(page).to have_title('The Mysterium - Home')
+      expect(page).to have_title('The Mysterium')
+	  expect(page).not_to have_title('- Home')      
   end
 
   scenario "user visits About page" do
