@@ -1,5 +1,5 @@
 <div class="container">
-	<header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+	<header id="main-header" class="navbar navbar-inverse navbar-fixed-top" role="banner">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -8,13 +8,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          
           <a class="navbar-brand" href="/"><%= full_title(yield(:title)) %></a>
         </div> <!-- navbar header -->
         <nav class="navbar-collapse collapse" role="navigation">
           <ul class="nav navbar-nav pull-right">
-            <li><%= link_to "Home", "/"%></li>
-			      <li><%= link_to "About", "about"%></li>
-			      <li><%= link_to "Help", "help"%></li>
+            <%= render "layouts/main_menu" %>
           </ul>
         </nav><!--/.nav-collapse -->
       </div><!-- navbar container  -->

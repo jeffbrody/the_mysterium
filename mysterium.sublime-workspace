@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"na",
+				"navigation"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
 				"do",
 				"do"
 			],
@@ -148,34 +156,37 @@
 	"buffers":
 	[
 		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 1007,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "spec/requests/static_pages_spec.rb",
 			"settings":
 			{
-				"buffer_size": 189,
+				"buffer_size": 691,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/static_pages/home.html.erb",
+			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 71,
+				"buffer_size": 484,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "config/routes.rb",
+			"file": "app/views/layouts/_footer.html.erb",
 			"settings":
 			{
-				"buffer_size": 172,
+				"buffer_size": 335,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "// They will automatically be included in application.css.\n// You can use Sass (SCSS) here: http://sass-lang.com/\n\n@import \"bootstrap\";\n\nbody {\n	padding-top: 100px;\n/*	\n	background-color: rgba ( 200,200,200, .5);\n	background-image: url(\"Bachlut1.gif\");\n	background-size: 100%;\n	background-repeat: no-repeat;\n	background-attachment: fixed;\n	background-position: center;	\n	opacity: 0.5;	\n*/	\n}\n\n.main-content {\n\n	\n}\n\n.footer {\n	border-top: 6px double #eaeaea;\n	margin-top: 40px;\n	padding-top: 10px;\n	color: #999;\n\n	a {\n		color: #555;\n\n		&:hover {\n			color: #222;\n		}\n	}\n\n	p {\n		float: left;\n	}\n\n	ul {\n		list-style: none;\n		float: right;\n\n		li {\n			float: left;\n			margin-left: 10px;\n		}\n	}\n}\n",
+			"file": "app/assets/stylesheets/static_pages.css.scss",
+			"file_size": 716,
+			"file_write_time": 1405398757000000,
+			"settings":
+			{
+				"buffer_size": 690,
 				"line_ending": "Unix"
 			}
 		}
@@ -183,16 +194,28 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 306.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
-				"Package Control: ",
-				"Package Control: Install Package"
+				"Snippet: erb",
+				"Snippet: output ERB tags"
+			],
+			[
+				"Snippet: erb ",
+				"Snippet: ERB tags"
+			],
+			[
+				"Snippet: lor",
+				"Snippet: Lorem ipsum"
 			],
 			[
 				"",
 				"Snippet: Lorem ipsum"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
 			],
 			[
 				"Snippet: n",
@@ -203,7 +226,7 @@
 				"Snippet: bs3-navbar-fixed-top"
 			]
 		],
-		"width": 458.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -220,6 +243,19 @@
 	},
 	"file_history":
 	[
+		"/home/jeff/projects/mysterium/app/views/layouts/_shiv.html.erb",
+		"/home/jeff/projects/mysterium/app/views/layouts/_header.html.erb",
+		"/home/jeff/projects/mysterium/app/views/static_pages/home.html.erb",
+		"/home/jeff/projects/mysterium/app/views/static_pages/about.html.erb",
+		"/home/jeff/projects/mysterium/app/views/static_pages/help.html.erb",
+		"/home/jeff/projects/mysterium/app/assets/javascripts/application.js",
+		"/home/jeff/projects/mysite/mysite/index.html",
+		"/home/jeff/projects/mysterium/config/application.rb",
+		"/home/jeff/projects/mysterium/app/helpers/application_helper.rb",
+		"/home/jeff/projects/mysterium/app/assets/stylesheets/application.css",
+		"/home/jeff/projects/Bootstrap/bootstrap/index.html",
+		"/home/jeff/projects/mysterium/Gemfile",
+		"/home/jeff/projects/mysterium/config/routes.rb",
 		"/home/jeff/projects/mysterium/.rspec",
 		"/home/jeff/.config/sublime-text-2/Packages/RubyTest/Default (Linux).sublime-keymap",
 		"/home/jeff/projects/mysterium/spec/spec_helper.rb",
@@ -334,20 +370,7 @@
 		"/home/jeff/projects/handplow/app/models/role.rb",
 		"/home/jeff/projects/handplow/config/initializers/stripe.rb",
 		"/home/jeff/projects/handplow/spec/features/next step notes",
-		"/home/jeff/projects/handplow/app/models/product.rb",
-		"/home/jeff/projects/handplow/spec/models/product_spec.rb",
-		"/home/jeff/projects/handplow/spec/factories/users.rb",
-		"/home/jeff/projects/handplow/virtual_data/access for Ann",
-		"/home/jeff/projects/handplow/app/models/ability.rb",
-		"/home/jeff/projects/handplow/spec/controllers/products_controller_spec.rb",
-		"/home/jeff/projects/handplow/app/views/products/show.html.erb",
-		"/home/jeff/projects/handplow/config/locales/devise.en.yml",
-		"/home/jeff/projects/handplow/app/controllers/users/registrations_controller.rb",
-		"/home/jeff/projects/handplow/app/controllers/users/users_controller.rb",
-		"/home/jeff/projects/handplow/config/initializers/devise.rb",
-		"/home/jeff/projects/handplow/app/views/devise/passwords/new.html.erb",
-		"/home/jeff/projects/handplow/app/views/devise/passwords/edit.html.erb",
-		"/home/jeff/projects/handplow/app/views/devise/confirmations/new.html.erb"
+		"/home/jeff/projects/handplow/app/models/product.rb"
 	],
 	"find":
 	{
@@ -476,51 +499,23 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Gemfile",
-					"settings":
-					{
-						"buffer_size": 1007,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1006,
-								1006
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 485.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "spec/requests/static_pages_spec.rb",
 					"settings":
 					{
-						"buffer_size": 189,
+						"buffer_size": 691,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								125,
-								125
+								71,
+								71
 							]
 						],
 						"settings":
@@ -534,19 +529,45 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/views/static_pages/home.html.erb",
+					"buffer": 1,
+					"file": "app/views/layouts/application.html.erb",
 					"settings":
 					{
-						"buffer_size": 71,
+						"buffer_size": 484,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								66,
-								66
+								447,
+								447
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/_footer.html.erb",
+					"settings":
+					{
+						"buffer_size": 335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
 							]
 						],
 						"settings":
@@ -561,23 +582,23 @@
 				},
 				{
 					"buffer": 3,
-					"file": "config/routes.rb",
+					"file": "app/assets/stylesheets/static_pages.css.scss",
 					"settings":
 					{
-						"buffer_size": 172,
+						"buffer_size": 690,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								149,
-								149
+								409,
+								409
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
