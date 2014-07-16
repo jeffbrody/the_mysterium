@@ -172,21 +172,42 @@
 			}
 		},
 		{
-			"file": "app/views/layouts/_footer.html.erb",
+			"file": "spec/models/piece_spec.rb",
 			"settings":
 			{
-				"buffer_size": 335,
+				"buffer_size": 148,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "// They will automatically be included in application.css.\n// You can use Sass (SCSS) here: http://sass-lang.com/\n\n@import \"bootstrap\";\n\nbody {\n	padding-top: 100px;\n/*	\n	background-color: rgba ( 200,200,200, .5);\n	background-image: url(\"Bachlut1.gif\");\n	background-size: 100%;\n	background-repeat: no-repeat;\n	background-attachment: fixed;\n	background-position: center;	\n	opacity: 0.5;	\n*/	\n}\n\n.main-content {\n\n	\n}\n\n.footer {\n	border-top: 6px double #eaeaea;\n	margin-top: 40px;\n	padding-top: 10px;\n	color: #999;\n\n	a {\n		color: #555;\n\n		&:hover {\n			color: #222;\n		}\n	}\n\n	p {\n		float: left;\n	}\n\n	ul {\n		list-style: none;\n		float: right;\n\n		li {\n			float: left;\n			margin-left: 10px;\n		}\n	}\n}\n",
-			"file": "app/assets/stylesheets/static_pages.css.scss",
-			"file_size": 716,
-			"file_write_time": 1405398757000000,
+			"file": "spec/spec_helper.rb",
 			"settings":
 			{
-				"buffer_size": 690,
+				"buffer_size": 3724,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/factories/pieces.rb",
+			"settings":
+			{
+				"buffer_size": 268,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/support/factory_girl.rb",
+			"settings":
+			{
+				"buffer_size": 246,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/rails_helper.rb",
+			"settings":
+			{
+				"buffer_size": 2024,
 				"line_ending": "Unix"
 			}
 		}
@@ -243,8 +264,13 @@
 	},
 	"file_history":
 	[
-		"/home/jeff/projects/mysterium/app/views/layouts/_shiv.html.erb",
+		"/home/jeff/projects/mysterium/config/database.yml",
 		"/home/jeff/projects/mysterium/app/views/layouts/_header.html.erb",
+		"/home/jeff/projects/mysterium/app/views/layouts/_main_menu.html.erb",
+		"/home/jeff/projects/mysterium/app/assets/stylesheets/static_pages.css.scss",
+		"/home/jeff/projects/mysterium/app/views/layouts/_footer.html.erb",
+		"/home/jeff/projects/mysterium/app/views/layouts/_menu.html.erb",
+		"/home/jeff/projects/mysterium/app/views/layouts/_shiv.html.erb",
 		"/home/jeff/projects/mysterium/app/views/static_pages/home.html.erb",
 		"/home/jeff/projects/mysterium/app/views/static_pages/about.html.erb",
 		"/home/jeff/projects/mysterium/app/views/static_pages/help.html.erb",
@@ -261,7 +287,6 @@
 		"/home/jeff/projects/mysterium/spec/spec_helper.rb",
 		"/home/jeff/projects/mysterium/Guardfile",
 		"/home/jeff/projects/mysterium/.gitignore",
-		"/home/jeff/projects/mysterium/config/database.yml",
 		"/home/jeff/projects/mysterium/config/environments/production.rb",
 		"/home/jeff/projects/mysterium/config/environments/development.rb",
 		"/home/jeff/projects/mysterium/config/environments/test.rb",
@@ -366,11 +391,7 @@
 		"/home/jeff/projects/handplow/app/views/devise/registrations/edit.html.erb",
 		"/home/jeff/projects/handplow/app/assets/javascripts/jquery.readyselector.js",
 		"/home/jeff/projects/handplow/app/assets/javascripts/jquery.externalscript.js",
-		"/home/jeff/projects/handplow/spec/features/home_page_spec.rb",
-		"/home/jeff/projects/handplow/app/models/role.rb",
-		"/home/jeff/projects/handplow/config/initializers/stripe.rb",
-		"/home/jeff/projects/handplow/spec/features/next step notes",
-		"/home/jeff/projects/handplow/app/models/product.rb"
+		"/home/jeff/projects/handplow/spec/features/home_page_spec.rb"
 	],
 	"find":
 	{
@@ -389,6 +410,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"user",
 			"blah",
 			"</span>",
 			"<span>",
@@ -449,6 +471,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"piece",
 			"mysterium",
 			"",
 			"2",
@@ -499,7 +522,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -520,7 +543,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/User/RSpec.tmLanguage"
+							"syntax": "Packages/User/RSpec.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -540,8 +565,8 @@
 						"selection":
 						[
 							[
-								447,
-								447
+								323,
+								323
 							]
 						],
 						"settings":
@@ -556,23 +581,23 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/views/layouts/_footer.html.erb",
+					"file": "spec/models/piece_spec.rb",
 					"settings":
 					{
-						"buffer_size": 335,
+						"buffer_size": 148,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								122,
-								122
+								148,
+								148
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/User/RSpec.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -582,26 +607,108 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/assets/stylesheets/static_pages.css.scss",
+					"file": "spec/spec_helper.rb",
 					"settings":
 					{
-						"buffer_size": 690,
+						"buffer_size": 3724,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								409,
-								409
+								3559,
+								3559
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 949.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "spec/factories/pieces.rb",
+					"settings":
+					{
+						"buffer_size": 268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "spec/support/factory_girl.rb",
+					"settings":
+					{
+						"buffer_size": 246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "spec/rails_helper.rb",
+					"settings":
+					{
+						"buffer_size": 2024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								210,
+								210
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 177.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
