@@ -21,4 +21,12 @@ feature "Static pages" do
       expect(page).to have_content('How to Use this Software')
       expect(page).to have_title('The Mysterium - Help')
   end    
+
+  scenario "user visits Library link" do
+      visit '/'
+      within('ul.nav') {click_link 'Library'}
+      expect(page).to have_content('The Library')
+      expect(page).to have_title('The Mysterium - Library')
+      expect(page).to have_content("Click on a title to edit, or on the New button to add a library item")
+  end   
 end

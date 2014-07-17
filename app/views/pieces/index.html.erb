@@ -1,0 +1,23 @@
+<% provide(:title, 'Library') %>
+<h1>The Library</h1>
+<p class="lead">Click on a title to edit, or on the New button to add a library item</p>
+
+<table class="table table-hover table-condensed table-responsive">
+	<caption>Library Pieces</caption>
+	<tr>
+		<th>Title</th>
+		<th>Instrumentation</th>
+		<th>Duration (min)</th>
+		<th>Last Performed</th>
+		<th>Yr Published</th>
+	</tr>
+	<% @pieces.each do |piece| %>		
+		<tr>
+			<td><%= link_to piece.title, piece_path(piece), :class => "piece-link" %></td>
+			<td><%=piece.instrumentation%></td>
+			<td><%=piece.duration%></td>
+			<td><%=piece.last_performed.strftime(format='%m/%d/%Y')%></td>
+			<td><%=piece.published.strftime(format='%Y')%></td>
+		</tr>
+	<% end %>
+</table>

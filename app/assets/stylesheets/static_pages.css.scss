@@ -3,6 +3,14 @@
 
 @import "bootstrap";
 
+$grayMediumLight: #eaeaea;
+
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
 	padding-top: 100px;
 
@@ -15,7 +23,7 @@ body {
 
 
 .footer {
-	border-top: 6px double #eaeaea;
+	border-top: 6px double $grayMediumLight;
 	margin-top: 40px;
 	padding-top: 10px;
 	color: #999;
@@ -41,4 +49,12 @@ body {
 			margin-left: 10px;
 		}
 	}
+}
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
 }

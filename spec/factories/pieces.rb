@@ -3,11 +3,11 @@
 
 FactoryGirl.define do
   factory :piece do
-    title "MyString"
+    title {Faker::Lorem.words(2).join(' ')}
     instrumentation "MyString"
-    notes "MyText"
+    notes {Faker::Lorem.sentence(3)}
     duration 1
-    last_performed "2014-07-15"
-    published "2014-07-15"
+    last_performed { Date.today - Faker::Number.number(3).to_i.days }
+    published { Date.today - Faker::Number.number(4).to_i.days }
   end
 end
