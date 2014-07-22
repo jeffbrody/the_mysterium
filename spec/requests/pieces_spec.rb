@@ -28,7 +28,7 @@ RSpec.describe "Pieces", :type => :request do
   	it "Displays a list of pieces in alpha name order" do
   		within_table("Library Pieces") do
   			@titles.each do |title| 
-  				it{should have_content(title)}
+  				expect(page).to have_content(title)
   			end
   		end
   	end
@@ -36,7 +36,7 @@ RSpec.describe "Pieces", :type => :request do
   	it "Links the title to the Show page" do
   		within_table("Library Pieces") do
   			click_link(@titles.first)
-  			it{should have_title(@titles.first)}
+  			expect(page).to have_title(@titles.first)
 		  end
   	end
 
