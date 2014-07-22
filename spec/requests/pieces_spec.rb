@@ -26,19 +26,18 @@ RSpec.describe "Pieces", :type => :request do
   	end
 
   	it "Displays a list of pieces in alpha name order" do
-		within_table("Library Pieces") do
-			@titles.each do |title| 
-				expect(page).to have_content(title)
-			end
-		end
+  		within_table("Library Pieces") do
+  			@titles.each do |title| 
+  				it{should have_content(title)}
+  			end
+  		end
   	end
 
   	it "Links the title to the Show page" do
   		within_table("Library Pieces") do
-			click_link(@titles.first)
-			expect(page).to have_title(@titles.first)
-		end
-
+  			click_link(@titles.first)
+  			it{should have_title(@titles.first)}
+		  end
   	end
 
   	#pending: should have New button
@@ -47,31 +46,6 @@ RSpec.describe "Pieces", :type => :request do
   		#pending: View in Composer order
   		#pending: View in Date Published order
   		#pending: View in Last Performed order
-  	end
-  end
-
-  describe "Show Piece page" do
-  	before do
-  		@piece = create(:piece)
-  		visit piece_path(@piece)
-  	end
-
-  	it "should display all the info about a piece" do
-  		
-  	end
-
-  	it "should have a button to edit" do
-  		click_link('Edit Piece')
-  		expect(page).to have_title("Edit #{@piece.title}")
-  		expect(page).to have_content("Edit #{@piece.title}")
-  	end
-
-  	it "should have a button to delete" do
-  		
-  	end
-
-  	it "should have a button to go back to the list" do
-  		
   	end
   end
 end

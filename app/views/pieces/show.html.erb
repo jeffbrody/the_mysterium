@@ -2,6 +2,12 @@
 
 <h1><%= @piece.title %></h1>
 
+    <p>Date Published: <%=@piece.published%></p>
+	<p>Instrumentation: <%=@piece.instrumentation%></p>
+    <p>Duration: <%=@piece.duration%></p>
+    <p>Date Last Performed: <%=@piece.last_performed%></p>
+	<p>Piece Notes: <%=@piece.notes%></p>
+    
 <%= link_to "Edit Piece", edit_piece_path(@piece), :class => "btn btn-default" %>
 <%= link_to "Delete Piece", 
 	piece_path(@piece),

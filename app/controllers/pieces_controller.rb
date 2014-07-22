@@ -18,6 +18,10 @@ class PiecesController < ApplicationController
   end
 
   def destroy
+    piece_title=@piece.title
+    @piece.destroy
+    flash[:notice] = "Piece #{piece_title} has been deleted."
+    redirect_to pieces_path
   end
 
   def show

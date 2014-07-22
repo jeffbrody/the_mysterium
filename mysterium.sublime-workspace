@@ -167,15 +167,7 @@
 			"file": "spec/requests/pieces_spec.rb",
 			"settings":
 			{
-				"buffer_size": 1592,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/jeff/projects/handplow/app/views/products/show.html.erb",
-			"settings":
-			{
-				"buffer_size": 923,
+				"buffer_size": 1928,
 				"line_ending": "Unix"
 			}
 		},
@@ -184,6 +176,22 @@
 			"settings":
 			{
 				"buffer_size": 2149,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/jeff/projects/handplow/app/views/products/edit.html.erb",
+			"settings":
+			{
+				"buffer_size": 120,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/jeff/projects/handplow/app/views/products/_product_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 1420,
 				"line_ending": "Unix"
 			}
 		},
@@ -199,7 +207,7 @@
 			"file": "app/views/pieces/show.html.erb",
 			"settings":
 			{
-				"buffer_size": 393,
+				"buffer_size": 640,
 				"line_ending": "Unix"
 			}
 		},
@@ -208,6 +216,14 @@
 			"settings":
 			{
 				"buffer_size": 721,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/factories/pieces.rb",
+			"settings":
+			{
+				"buffer_size": 386,
 				"line_ending": "Unix"
 			}
 		}
@@ -264,6 +280,7 @@
 	},
 	"file_history":
 	[
+		"/home/jeff/projects/handplow/app/views/products/show.html.erb",
 		"/home/jeff/projects/mysterium/app/views/pieces/index.html.erb",
 		"/home/jeff/projects/mysterium/spec/factories/pieces.rb",
 		"/home/jeff/projects/handplow/app/controllers/products_controller.rb",
@@ -390,8 +407,7 @@
 		"/home/jeff/projects/handplow/app/views/devise/shared/_links.erb",
 		"/home/jeff/projects/handplow/app/views/users_admin/edit.html.erb",
 		"/home/jeff/projects/handplow/spec/support/features.rb",
-		"/home/jeff/projects/handplow/spec/features/editing_product_spec.rb",
-		"/home/jeff/projects/handplow/spec/features/admin_spec.rb"
+		"/home/jeff/projects/handplow/spec/features/editing_product_spec.rb"
 	],
 	"find":
 	{
@@ -407,9 +423,11 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
+			")",
+			"expect(page).to have_content(",
 			"product",
 			"Product",
 			"@([a-z_]*), ",
@@ -473,11 +491,13 @@
 			"Seventy.com"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
+			"%></p>",
+			"<p><%=",
 			"piece",
 			"Piece",
 			"@\\1 = attributes[:\\1]\\n",
@@ -534,7 +554,6 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
@@ -542,56 +561,31 @@
 					"file": "spec/requests/pieces_spec.rb",
 					"settings":
 					{
-						"buffer_size": 1592,
+						"buffer_size": 1928,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1178,
-								1178
+								449,
+								449
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/User/RSpec.tmLanguage"
+							"syntax": "Packages/User/RSpec.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 763.0,
+						"translation.y": 806.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/home/jeff/projects/handplow/app/views/products/show.html.erb",
-					"settings":
-					{
-						"buffer_size": 923,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								923,
-								923
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "/home/jeff/projects/handplow/app/controllers/products_controller.rb",
 					"settings":
 					{
@@ -613,13 +607,66 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 867.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/jeff/projects/handplow/app/views/products/edit.html.erb",
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "/home/jeff/projects/handplow/app/views/products/_product_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 1420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "app/controllers/pieces_controller.rb",
 					"settings":
 					{
@@ -636,7 +683,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -645,11 +694,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "app/views/pieces/show.html.erb",
 					"settings":
 					{
-						"buffer_size": 393,
+						"buffer_size": 640,
 						"regions":
 						{
 						},
@@ -671,7 +720,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "app/views/pieces/index.html.erb",
 					"settings":
 					{
@@ -690,6 +739,32 @@
 						{
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "spec/factories/pieces.rb",
+					"settings":
+					{
+						"buffer_size": 386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								224
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

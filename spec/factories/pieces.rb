@@ -5,9 +5,9 @@ FactoryGirl.define do
   factory :piece do
     title {Faker::Lorem.words(2).join(' ')}
     instrumentation "MyString"
-    notes {Faker::Lorem.sentence(3)}
-    duration 1
+    notes {Faker::Lorem.paragraph(3)}
+    duration rand(10)
     last_performed { Date.today - Faker::Number.number(3).to_i.days }
-    published { Date.today - Faker::Number.number(4).to_i.days }
+    published { Date.today - Faker::Number.number(6).to_i.days }
   end
 end
