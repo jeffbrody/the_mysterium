@@ -15,6 +15,9 @@ class PiecesController < ApplicationController
   end
 
   def update
+    @piece.update(piece_params)
+    flash[:notice] = "Piece #{@piece.title} has been updated."
+    redirect_to @piece
   end
 
   def destroy
@@ -35,6 +38,16 @@ private
       flash[:alert] = "The piece you were looking for could not be found."
       redirect_to pieces_path
   	end
+  end
+
+  def piece_params
+    params.require(:piece).permit(
+      :title,
+      :published,
+      :instrumentation,
+      :duration,
+      :last_performed,
+      :notes)
   end
 
 end
