@@ -1,2 +1,17 @@
-<h1>Pieces#new</h1>
-<p  class="lead">Find me in app/views/pieces/new.html.erb</p>
+<% provide(:title, "Add Piece") %>
+
+<h1>Add New Piece</h1>
+<p  class="lead">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+
+<%= render "pieces_form" %>
+
+<nav class="pieces-nav">
+<%= link_to "Return to Library", pieces_path, :class => "btn btn-default" %>
+</nav>

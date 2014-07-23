@@ -9,6 +9,19 @@ class PiecesController < ApplicationController
   end
 
   def new
+    @piece = Piece.new
+  end
+
+  def create
+    @Piece = Piece.new(piece_params)
+    
+    if @Piece.save
+      flash[:notice] = "Piece #{@Piece.title} has been created."
+      redirect_to @Piece
+    else
+      flash[:alert] = "Piece has not been created."
+      render "new"
+    end
   end
 
   def edit

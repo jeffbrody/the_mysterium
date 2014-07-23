@@ -40,8 +40,12 @@ RSpec.describe "Pieces", :type => :request do
 		  end
   	end
 
-  	#pending: should have New button
-  	
+  it "Lets you add a new piece" do
+      click_link("New Piece")
+      expect(page).to have_title("Mysterium - Add Piece")
+      expect(page).to have_content("Add New Piece")
+  end
+
   	it "Displays the list in different orders" do
   		#pending: View in Composer order
   		#pending: View in Date Published order
